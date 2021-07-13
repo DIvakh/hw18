@@ -1,0 +1,16 @@
+table {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr,
+td {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.task2 {
+    margin-top: 40px;
+}
