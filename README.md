@@ -1,11 +1,32 @@
-# JS home work structure
+1. Написать функцию generateList(array)
 
-1. You need to install Node.js from https://nodejs.org
-2. Create new folder with your project
-3. Copy all files from this repo to your project (exclude README.md and LICENSE)
-4. In terminal - git init (inside folder with your current project)
-5. In terminal - npm install
-6. Write your code in src/index.js
-7. Enjoy!
+принимает массив из чисел и массивов чисел, например [1,2,3]
 
-P.S. If you use VS Code you can install plugin 'Prettier - Code formatter' and turn on 'Format On Save' in VS Code settings
+нужно сгенерировать список из елементов,
+
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ul>
+
+
+[1,2, [1.1,1.2,1.3] ,3]
+
+* а если в массиве встречается массив то делать вложенный список, для проверки на массив используйте Array.isArray()
+
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>
+		<ul>
+			<li>1.1</li>
+			<li>1.2</li>
+			<li>1.3</li>
+		</ul>
+	</li>
+	<li>3</li>
+</ul>
+
+
+2. Вывести таблицу 10 × 10, заполненную числами от 1 до 100
